@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background-color: plum;
+    padding: 100px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 24px;
+    color: darkgreen;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks li{
+    margin: 30px;
+
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+}
+.web_designer{
+    font-size: 110px;
+    font-weight: bolder;
+    color: darkgreen;
+    line-height: 116px;
+}
+.home_hello{
+    font-size: 28px;
+    color: darkgreen;
+
+}
+.resume{
+    margin-top: 50px;
+}
+.resume a{
+
+    text-decoration: none;
+    color: black;
+    background-color: burlywood;
+    padding: 15px;
+
+}
+.about_para{
+    width: 70%;
+    color: blue;
+}
+.brown_head{
+    color: blue;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+.about_exp{
+    margin-top: 80px;
+    padding-left: 200px;
+    color: blue;
+}
+.about_exp li{
+ margin-top: 20px;
+}
+#skills{
+    font-size: 20px;
+}
+.skill_item{
+    border:darkgreen solid 2px;
+    width:350px;
+    padding: 15px;
+    text-align: center;
+}
+.skill_container{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    font-size: 20px;
+    color: darkgreen;
+}
+.profile{
+    border-radius: 100px 0px 100px 0px;
+}
